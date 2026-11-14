@@ -22,9 +22,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VORTEX // ALPHA — Autonomous Crypto & Meme-Coin Sniper Terminal",
+  title: "AutoTrader — Cryptocurrency Trading Terminal",
   description:
-    "Autonomous multi-chain crypto and meme-coin viability radar, anti-rug contract auditor, and automated profit execution bot.",
+    "AutoTrader is a multi-chain cryptocurrency trading terminal with paper trading, live order intents, and an optional Base custody vault.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
