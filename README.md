@@ -32,6 +32,10 @@ AutoTrader is a Next.js trading terminal with a PostgreSQL-backed paper trading 
 
 The app is available at `http://localhost:3000`.
 
+## Deployment
+
+See [Vercel deployment guide](docs/VERCEL_DEPLOYMENT.md) for Git integration, PostgreSQL setup, environment variables, migrations, and security requirements.
+
 ## Environment variables
 
 | Variable | Required | Description |
@@ -61,3 +65,7 @@ The custody vault uses a separate, random browser session cookie and encrypts pr
 ## Database schema
 
 The Drizzle schema is in `src/db/schema.ts`; migration files are generated into the project’s migrations directory. Review migrations before applying them to a production database.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
